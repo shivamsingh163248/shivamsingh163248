@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://github.com/shivamsingh163248">
-    <img align="center" width="49%" src="./header.svg" />
+    <!-- <img align="center" width="49%" src="./header.svg" /> -->
   </a>
 </p>
 
