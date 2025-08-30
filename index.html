@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivam Singh | GitHub Profile</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    #github-profile { margin-bottom: 30px; }
+    .profile-name { font-size: 1.5em; font-weight: bold; color: #0366d6; vertical-align: middle; }
+    .profile-img { width: 48px; border-radius: 50%; vertical-align: middle; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <div id="github-profile"></div>
+  <script>
+    fetch('https://api.github.com/users/shivamsingh163248')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-profile').innerHTML = `
+          <img src="${data.avatar_url}" alt="Avatar" class="profile-img">
+          <span class="profile-name">${data.name || data.login}</span>
+        `;
+      });
+  </script>
+  <!-- ...existing or additional content... -->
+</body>
+</html>
