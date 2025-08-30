@@ -16,7 +16,7 @@ jobs:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-            user: shivamsingh163248
+          user: shivamsingh163248
           base: achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B      # Display achievements with rank B or higher
@@ -34,9 +34,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-            user: shivamsingh163248
+          user: shivamsingh163248
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -61,9 +59,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-            user: shivamsingh163248
+          user: shivamsingh163248
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -78,9 +74,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-            user: shivamsingh163248
+          user: shivamsingh163248
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -96,7 +90,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
-            user: shivamsingh163248
+          user: shivamsingh163248
           base: ""
           template: classic
           plugin_habits: yes
@@ -115,9 +109,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-            user: shivamsingh163248
+          user: shivamsingh163248
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -135,9 +127,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-            user: shivamsingh163248
+          user: shivamsingh163248
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
